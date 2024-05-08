@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+   <div class="quiz-container">
+       <h1></h1>
+       <p id="question">PIM ย่อมาจากอะไร ?</p>
+       <button class="button" onclick="checkAnswer01('a')">A) พีไอเอ็ม</button>
+       <button class="button" onclick="checkAnswer01('b')">B) ปิ๋ม</button>
+       <button class="button" onclick="checkAnswer01('c')">C) พิม</button>
+       <button class="button" onclick="checkAnswer01('d')">D) ภีม</button>
+       <p id="result1"></p>
+
+    <h1></h1>
+    <p id="question">ศูนย์กระจายสินค้าแห่งแรกของ CPALL คือที่ไหน ?</p>
+    <button class="button" onclick="checkAnswer02('a')">A) ชลบุรี</button>
+    <button class="button" onclick="checkAnswer02('b')">B) บางบัวทอง</button>
+    <button class="button" onclick="checkAnswer02('c')">C) สุวรรณภูมิ</button>
+    <button class="button" onclick="checkAnswer02('d')">D) มหาชัย</button>
+    <p id="result02"></p>
+    <p id="Cal"></p>
+   </div>
+
+   <script src="app.js" charset="UTF-8"></script>
+</body>
+</html>
